@@ -5,12 +5,13 @@ import APropos from './pages/APropos';
 import Error404 from './pages/Error404';
 import FicheLogement from './pages/FicheLogement';
 import Home from './pages/Home';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
-      
-        <Routes>
+    <>
+      <Routes>
+        <Route element={<Layout />}>
           {/* Page par default */}
           <Route index element={<Home />} />
           {/* Routage Page */}
@@ -19,9 +20,9 @@ function App() {
           <Route path="/a_propos" element={<APropos />} />
           {/* Erreur URL */}
           <Route path="*" element={<Error404 />} />
-        </Routes>
-      
-    </div>
+        </Route>
+      </Routes>
+    </>
   );
 }
 
