@@ -1,9 +1,13 @@
 import React from 'react'
+import NavBar from '../components/NavBar';
 
 const APropos = () => {
   return (
-    <div>APropos</div>
-  )
+    <div>
+      <NavBar />
+      APropos
+    </div>
+  );
 }
 
 export default APropos

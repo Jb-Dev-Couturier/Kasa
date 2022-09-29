@@ -1,9 +1,13 @@
 import React from 'react'
+import NavBar from '../components/NavBar';
 
 const FicheLogement = () => {
   return (
-    <div>FicheLogement</div>
-  )
+    <div>
+      <NavBar />
+      FicheLogement
+    </div>
+  );
 }
 
 export default FicheLogement
