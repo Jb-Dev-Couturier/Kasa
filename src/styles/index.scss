@@ -1,0 +1,13 @@
+//Pages settings
+@import './settings';
+
+
+//Pages Import
+@import './pages/Home';
+@import './pages/FicheLogement';
+@import './pages/APropos';
+@import './pages/Error404';
+
+//Components Import
+
+@import './components/Navbar'
