@@ -21,11 +21,23 @@
       letter-spacing: 0.1rem;
       color: $white;
       font-size: 24px;
+      @media screen and(max-width: 900px) {
+        font-size: 18px;
+      }
+      @media screen and(max-width: 500px) {
+        font-size: 14px;
+      }
 
       i {
         color: $white;
         margin-right: 0.5rem;
         font-size: 24px;
+        @media screen and(max-width: 900px) {
+        font-size: 18px;
+      }
+      @media screen and(max-width: 500px) {
+        font-size: 14px;
+      }
       }
     }
   }
