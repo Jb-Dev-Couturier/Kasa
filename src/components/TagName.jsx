@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
 
-const TagName = () => {
+const TagName = ({ tags }) => {
   return (
-    <div>TagName</div>
-  )
-}
+    <div className="TagName">
+      {tags?.map((tag) => (
+        <p key={tag}>
+          {tag}
+        </p>
+      ))}
+    </div>
+  );
+};
 
-export default TagName
+export default TagName;

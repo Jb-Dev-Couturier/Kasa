@@ -18,7 +18,7 @@ export const Properties = [
       picture:
         'https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg',
     },
-    rating: '5',
+    rating: 5,
     location: 'Ile de France - Paris 17e',
     equipments: [
       'Équipements de base',
