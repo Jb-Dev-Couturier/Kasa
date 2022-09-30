@@ -21,13 +21,16 @@
       }
     }
   }
-  .textCollapse {
-    margin: 0;
-    
-    background: #f7f7f7;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    p {
+
+  .content-parent {
+    height: 0px;
+    overflow: hidden;
+    transition: height ease 0.3s;
+    .textCollapse {
+      margin: 0;
+      background: #f7f7f7;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
       font-size: 24px;
       font-weight: 400;
       padding: 1rem;
