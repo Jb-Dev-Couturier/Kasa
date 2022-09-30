@@ -7,8 +7,8 @@ const LogementCarousel = ({ logementImage }) => {
   return (
     <div className="LogementCarousel">
       <Carousel
-      // autoPlay
-      // infiniteLoop
+      autoPlay
+      infiniteLoop
       showIndicators={false}
       showStatus
       >
