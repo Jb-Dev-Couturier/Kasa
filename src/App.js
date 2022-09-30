@@ -7,6 +7,8 @@ import FicheLogement from './pages/FicheLogement';
 import Home from './pages/Home';
 import Layout from './components/Layout';
 
+
+
 function App() {
   return (
     <>
@@ -16,7 +18,10 @@ function App() {
           <Route index element={<Home />} />
           {/* Routage Page */}
           <Route path="/home" element={<Home />} />
-          <Route path="/fiche_logement" element={<FicheLogement />} />
+          <Route
+            path={`/fiche_logement/:id`}
+            element={<FicheLogement />}
+          />
           <Route path="/a_propos" element={<APropos />} />
           {/* Erreur URL */}
           <Route path="*" element={<Error404 />} />
