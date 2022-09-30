@@ -19,7 +19,7 @@ const FicheLogement = () => {
 
   return (
     <main className='FicheLogement'>
-      <LogementCarousel logementDetail={logementData} />
+      <LogementCarousel logementImage={logementData.pictures} />
       <LogementDetails logementDetails={logementData} />
     </main>
   );

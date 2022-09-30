@@ -1,4 +1,6 @@
+
 import { Routes, Route } from 'react-router-dom';
+
 
 //page import
 import APropos from './pages/APropos';
@@ -10,6 +12,9 @@ import Layout from './components/Layout';
 
 
 function App() {
+  
+
+
   return (
     <>
       <Routes>
