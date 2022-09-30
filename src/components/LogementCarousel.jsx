@@ -10,7 +10,7 @@ const LogementCarousel = ({ logementImage }) => {
       autoPlay
       infiniteLoop
       showIndicators={false}
-      showStatus
+      showStatus={false}
       >
         {logementImage?.map((img, i)=>(
           <img src={img} alt="img-logement" key={i} />
