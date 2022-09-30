@@ -1,4 +1,8 @@
 .NavBar {
+  padding: 0 1rem;
+  @media screen and(max-width: 500px) {
+      padding: 0;
+    }
   nav {
     height: 70px;
     width: 100%;
