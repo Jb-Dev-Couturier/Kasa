@@ -10,11 +10,12 @@ const NavBar = () => {
         <ul>
           <li>
             <NavLink
-              to={'/home'}
+              to={'/'}
               style={({ isActive }) => ({
                 textDecoration: isActive ? 'underline' : 'blue',
                 color: isActive ? '#FF6060' : '#FF6060',
               })}
+              end
             >
               Accueil
             </NavLink>
