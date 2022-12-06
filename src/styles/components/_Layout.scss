@@ -1,17 +1,17 @@
-.bodyLayout {
-  height: 100%;
-  width: 100%;
-  display:flex;
-  flex-direction: column;
-  .Layout {
+.body {
+    height: 100%;
     width: 100%;
-    max-width: 1240px;
-    margin: 40px auto ;
-    position: relative;
-    flex-grow: 1;
-      @media screen and(max-width: 500px) {
-        margin: 0;
-        padding: 20px;
-      }
+    display:flex;
+    flex-direction: column;
+    .Layout {
+      width: 90%;
+      max-width: 1240px;
+      min-width: 335px;
+      margin: 20px;
+      position: relative;
+      flex-grow: 1;
+        @media screen and (min-width: 500px) {
+          margin: 40px auto;
+        }
+    }
   }
-}

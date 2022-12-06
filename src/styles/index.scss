@@ -2,20 +2,21 @@
 @import './settings';
 
 
-//Pages Import
+//Styles Pages
 @import './pages/Home';
-@import './pages/FicheLogement';
-@import './pages/APropos';
-@import './pages/Error404';
+@import './pages/About';
+@import './pages/Logement';
+@import './pages/NotFound';
 
-//Components Import
 
-@import './components/Navbar';
-@import './components/Banner';
-@import './components/Footer';
+//Styles Components
 @import './components/Layout';
-@import './components/CardLocation';
-@import './components/CollapseAP';
-@import './components/LogementCarousel';
-@import './components/LogementDetails';
-@import './components/TagName';
+@import './components/Navbar';
+@import './components/Footer';
+@import './components/Banner';
+@import './components/Card';
+@import './components/Collapse';
+@import './components/Slideshow';
+@import './components/Tag';
+@import './components/Rating';
+
